@@ -61,7 +61,7 @@ function saveMessage(messageText) {
 
 // Loads chat messages history and listens for upcoming ones.
 function loadMessages() {
-    // TODO 8: Load and listens for new messages.
+    //  Load and listens for new messages.
     var query = firebase.firestore()
         .collection('messages')
         .orderBy('timestamp', 'desc')
